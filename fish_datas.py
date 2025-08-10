@@ -13,12 +13,12 @@ smelt_weight = [6.7, 7.5, 7.0, 9.7, 9.8, 8.7, 10.0, 9.9, 9.8, 12.2, 13.4, 12.2, 
 
 
 # 맷플롯립 사용하여 그래프 보기
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # plt 은 별칭 관례라서 대부분 이렇게 사용함
 
-# plt.scatter(bream_length,bream_weight)
-# plt.scatter(smelt_length,smelt_weight)
+plt.scatter(bream_length,bream_weight)
+plt.scatter(smelt_length,smelt_weight)
 
-# plt.xlabel('length')
-# plt.ylabel('weight')
-# plt.show()
+plt.xlabel('length')
+plt.ylabel('weight')
+#plt.show()
 
