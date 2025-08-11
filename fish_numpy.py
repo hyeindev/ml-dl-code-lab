@@ -38,3 +38,4 @@ print(test_target);
 score = model.score(test_input,test_target);
 
 print(score); # 정확도 1.0 출력
+
